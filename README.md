@@ -4,7 +4,9 @@ ad-server
 
 Ad Server that responds to GET and POST requests
 
-This progam is a simple ad server which responds to GET and POST requests using the HTTP protocol. It is implemented in perl and can run from command line in any directory on a linux-based OS with the simple invocation: user@host-machine:~/ /path/to/jdk/bin/java -jar ad-server.jar
+This progam is a simple ad server which responds to GET and POST requests using the HTTP protocol. It is implemented in perl and can run from command line in any directory on a linux-based OS with the simple invocation: 
+
+user@host-machine:~/ /path/to/jdk/bin/java -jar ad-server.jar
 
 The directory where it is installed is the server's document root. The server responds to GET and POST requests from curl, browsers and simple http clients like telnet or the Mozilla Firefox Poster tool.
 
